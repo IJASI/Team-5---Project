@@ -1,4 +1,4 @@
-# Fintech Bootcamp Project 1: Cryptocurrency Fundamental Analysis Tool
+# Fintech Bootcamp Project 2: Algorithmic Cryptocurrency Trading Bot
 
 ## **Group 5:**
 
@@ -28,13 +28,12 @@ We will be using Sandbox APIs to fetch the information for supply for this proje
 - Pandas - Python library and data cleaning
 - NumPy - Calculations
 - hvPlot - Visual graphics
-- Panel - Interactive web apps and widgets
-- HoloViews - Data analysis and visualization cleanup
+- sklearn - Supervised learning algorithm 
 
-![](Project1Images/CodeLogic.png)
-***Image 1: Generalized Overview of the Cryptocurrency Fundamental Analysis Tool***
 
-The Cryptocurrency Fundamental Analysis Tool works overall is like the following:
+***Image 1: Generalized Overview of the Algorithmic Cryptocurrency Trading Bot***
+
+The Algorithmic Cryptocurrency Trading Bot works overall is like the following:
 
 Description...
 
