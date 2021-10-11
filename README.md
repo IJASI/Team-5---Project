@@ -56,6 +56,9 @@ Sklearn description...
 
 ***Image 3: sklearn***
 
+
+## **Interactive trading bot user inteface:**
+
 **Amazon Lex**
 
 Amazon Lex description...
