@@ -42,7 +42,7 @@ Source code description...
 
 ***Image 2: Source Code***
 
-**Sandbox API**
+**Sandbox API via Coinbase**
 
 **Choosing certain asset metrics from Sandbox API via the Coinbase Client:**
 
@@ -56,16 +56,16 @@ Sklearn description...
 
 ***Image 3: sklearn***
 
-
-## **Interactive trading bot user inteface:**
+## **Interactive Trading Bot User Inteface:**
 
 **Amazon Lex**
 
 Amazon Lex description...
 
-***Image 4: Amazon Lex***
+SatoshiBot...
 
+***Image 4: Amazon Lex: SatoshiBot***
 
 ## **Conclusion:**
 
-- Reintroduce our tool again. Briefly mention how we collected data and made our tool...
+Reintroduce our tool again. Briefly mention how we collected data and made our tool...
