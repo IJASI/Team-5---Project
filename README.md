@@ -9,7 +9,7 @@ Anthony Mirete<br/>
 
 ## **Project Overview:**
 
-As new investors learn more about the world of cryptocurrency, oftentimes than not, it can be an information overload when it comes to selecting a coin to invest in. The overall idea for this project is to create an A.I chat training bot to help new traders with the overall concept of trading and encourage new users to create their own trading strategies. Through Amazon Lex, this robo-advisor will buy and sell cryptocurrency orders using simulated trading. We use Shrimpy.io and Polygon.io APIs to retrieve fundamental data (market cap, volume, circulating supply, total supply, and other relevant information) for the following crypto coins: ...  
+As new investors learn more about the world of cryptocurrency, oftentimes than not, it can be an information overload when it comes to selecting a coin to invest in. The overall idea for this project is to create an A.I chat training bot to help new traders with the overall concept of trading and encourage new users to create their own trading strategies. Through Amazon Lex, this robo-advisor will buy and sell cryptocurrency orders using simulated trading. We use the Sandbox API to retrieve fundamental data (market cap, volume, circulating supply, total supply, and other relevant information) for the following crypto coins: ...  
 
 ## **Research Questions:**
 
@@ -30,7 +30,6 @@ We will be using Sandbox APIs to fetch the information for supply for this proje
 - hvPlot - Visual graphics
 - sklearn - Supervised learning algorithm 
 
-
 ***Image 1: Generalized Overview of the Algorithmic Cryptocurrency Trading Bot***
 
 The Algorithmic Cryptocurrency Trading Bot works overall is like the following:
@@ -47,7 +46,11 @@ Source code description...
 
 When it came to organizing the content of our tool, we picked certain metrics that would be most appropriate for the beginner crypto investor. For this tool the following asset metrics were selected: 
 
-...
+description...
+
+**Amazon Lex**
+
+description...
 
 
 ## **Conclusion:**
