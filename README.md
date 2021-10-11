@@ -42,15 +42,25 @@ Source code description...
 
 ***Image 2: Source Code***
 
+**Sandbox API**
+
 **Choosing certain asset metrics from Sandbox API via the Coinbase Client:**
 
 When it came to organizing the content of our tool, we picked certain metrics that would be most appropriate for the beginner crypto investor. For this tool the following asset metrics were selected: 
 
 description...
 
+**sklearn**
+
+Sklearn description...
+
+***Image 3: sklearn***
+
 **Amazon Lex**
 
-description...
+Amazon Lex description...
+
+***Image 4: Amazon Lex***
 
 
 ## **Conclusion:**
