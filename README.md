@@ -69,3 +69,16 @@ SatoshiBot...
 ## **Conclusion:**
 
 Reintroduce our tool again. Briefly mention how we collected data and made our tool...
+
+Model Performance.  I used a SVM model and a Decision Tree model.  I tested about 5 models, which did not perform as well as SVM and DecisionTree. For this algorithm, it was important to use a classifier model to predict 1 of 2 outcomes, the trading signal: 1 or -1
+
+Here is the png of the Decision Tree model:
+
+![alt text](https://github.com/IJASI/Team-5---Project/blob/main/decisiontree.png)
+
+The SVM model did not perform as well
+
+![alt text](https://github.com/IJASI/Team-5---Project/blob/main/svm_model.png)
+
+If I had more time, I wanted to create an optimize a neural network model using Keras.
+
