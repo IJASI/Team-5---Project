@@ -89,5 +89,7 @@ The SVM model did not perform as well
 
 ![alt text](https://github.com/IJASI/Team-5---Project/blob/main/svm_model.png)
 
-If I had more time, I wanted to create an optimize a neural network model using Keras.
+Overall I am very happy with the results from the Decision Tree model.  I would like more time to optimize it before using testing it will real money
+
+If I had more time, I want to create an optimize a neural network model using Keras.  
 
