@@ -74,9 +74,9 @@ Reintroduce our tool again. Briefly mention how we collected data and made our t
 
 **Scikit Learn Supervised Machine Learning**
 
-The trading strategy I used made a .64% using BTC-USD.  I used rolling windows of 25 and 100.  I could have made more money if I used smaller rolling windows, resulting in more trades, but the data did not make great predictions.
+The trading strategy I used made a .64% return using BTC-USD.  I used rolling windows of 25 and 100.  I could have made more money if I used smaller rolling windows, resulting in more trades, but the data did not make great predictions.  I made better predictions with the larger window.
 
-![alt text]
+![alt text](https://github.com/IJASI/Team-5---Project/blob/main/cumulatin_returns.png)
 
 
 Model Performance.  I used a SVM model and a Decision Tree model.  I tested about 5 models, which did not perform as well as SVM and DecisionTree. For this algorithm, it was important to use a classifier model to predict 1 of 2 outcomes, the trading signal: 1 or -1
