@@ -70,6 +70,15 @@ SatoshiBot...
 
 Reintroduce our tool again. Briefly mention how we collected data and made our tool...
 
+## **Model Performance:**
+
+**Scikit Learn Supervised Machine Learning**
+
+The trading strategy I used made a .64% using BTC-USD.  I used rolling windows of 25 and 100.  I could have made more money if I used smaller rolling windows, resulting in more trades, but the data did not make great predictions.
+
+![alt text]
+
+
 Model Performance.  I used a SVM model and a Decision Tree model.  I tested about 5 models, which did not perform as well as SVM and DecisionTree. For this algorithm, it was important to use a classifier model to predict 1 of 2 outcomes, the trading signal: 1 or -1
 
 Here is the png of the Decision Tree model:
