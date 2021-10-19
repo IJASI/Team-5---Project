@@ -93,3 +93,5 @@ Overall I am very happy with the results from the Decision Tree model.  I would 
 
 If I had more time, I want to create an optimize a neural network model using Keras.  
 
+The problem I am facing regarding the last for loop and if else statements is:  I am running a for loop to loop through all the predicted signals, but since I am using a binary classifier model, I can only use 2 signals 1 and -1.  I tried running it with 3 signals 1, -1, 0, but I was not able to find a good enough multiclass model to predict the signals in the time allotted to me.  What is happening is that those signals are causing the program to buy every single day, when it should be holding.  I want the bot to hold if the previous row is the same as the last one.  I am working to solve this problem.
+
