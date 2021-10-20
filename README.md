@@ -50,13 +50,15 @@ Model Performance.  I used a SVM model and a Decision Tree model.  I tested abou
 
 
 ![alt text](https://github.com/IJASI/Team-5---Project/blob/main/decisiontree.png)
+
 ***Image 3: Decision Tree Model***
 
 
 The SVM model did not perform as well.
 
 ![alt text](https://github.com/IJASI/Team-5---Project/blob/main/svm_model.png)
-***Image 3: SVM Model***
+
+***Image 4: SVM Model***
 
 Overall I am very happy with the results from the Decision Tree model.  I would like more time to optimize it before using testing it will real money.
 
@@ -78,7 +80,7 @@ Sample Questions for SatoshiBot:
 
 ![](Project2Images/SatoshiBoi.png)
 
-***Image 4: SatoshiBot via Slack***
+***Image 5: SatoshiBot via Slack***
 
 ## **Overall Comments:**
 
