@@ -71,11 +71,11 @@ Amazon Lex is service that will be used to build an A.I trading training bot als
 
 **SatoshiBot**
 
-The bot for our program is called SatoshiBot. It is a roboadvisor that is able to buy and sell cryptocurrency orders via simulated trading using data from Coinbase Sandbox API.
+The bot for our program is called SatoshiBot. It is a robo-advisor that is able to buy and sell cryptocurrency orders via simulated trading using data from Coinbase Sandbox API.
 
 Sample Questions for SatoshiBot:
 
-1. Which cryptocurrency would you like to put on your watchlist {coin}?
+1. Which cryptocurrency coin would you like to put on your watchlist?
 2. How many dollars worth of {coin} do you want to invest?
 3. How many dollars worth of {coin} do you want to sell?
 
