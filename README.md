@@ -9,7 +9,7 @@ Anthony Mirete<br/>
 
 ## **Project Overview:**
 
-As new investors learn more about the world of cryptocurrency, oftentimes than not, it can be an information overload when it comes to selecting a coin to invest in. The overall idea for this project is to create an A.I chat training bot to help new traders with the overall concept of trading and encourage new users to create their own trading strategies. Through Amazon Lex, this robo-advisor will buy and sell cryptocurrency orders using simulated trading. We use the Sandbox API to retrieve fundamental data (market cap, volume, circulating supply, total supply, and other relevant information) for the following crypto coins: ...  
+As new investors learn more about the world of cryptocurrency, oftentimes than not, it can be an information overload when it comes to selecting a coin to invest in. The overall idea for this project is to create an A.I chat training bot to help new traders with the overall concept of trading and encourage new users to create their own trading strategies. Through Amazon Lex, this robo-advisor will buy and sell cryptocurrency orders using simulated trading. We use the Sandbox API to retrieve fundamental data (market cap, volume, circulating supply, total supply, and other relevant information) for the bitcoin (BTC). 
 
 ## **Research Questions:**
 
@@ -35,13 +35,7 @@ We will be using Sandbox APIs to fetch the information for supply for this proje
 
 The Algorithmic Cryptocurrency Trading Bot works overall is like the following:
 
-Description...
-
-**Source Code**
-
-Source code description...
-
-***Image 2: Source Code***
+The goal of this project is to create a simulated trading robo-advisor. First, we use the Coinbase Sandbox API as the test environment. Using machine learning libraries such as skit-learn to take in data from the API, the machine model analyzes the strategy signals (slow and fast moving averages) to indicate a change in price. Then we create a robo-advisor using Amazon Lex and we then program the robo-advisor to buy or sell orders via the platform Slack.
 
 **Sandbox API via Coinbase**
 
@@ -49,9 +43,7 @@ Source code description...
 
 When it came to organizing the content of our tool, we picked certain metrics that would be most appropriate for the beginner crypto investor. For this tool the following asset metrics were selected: 
 
-description...
-
-**sklearn**
+**skit-learn**
 
 Sklearn description...
 
@@ -65,7 +57,7 @@ Amazon Lex description...
 
 SatoshiBot...
 
-***Image 4: Amazon Lex: SatoshiBot***
+***Image 4: SatoshiBot via Slack***
 
 ## **Conclusion:**
 
