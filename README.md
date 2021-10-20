@@ -37,32 +37,6 @@ The Algorithmic Cryptocurrency Trading Bot works overall is like the following:
 
 The goal of this project is to create a simulated trading robo-advisor. First, we use the Coinbase Sandbox API as the test environment. Using machine learning libraries such as skit-learn to take in data from the API, the machine model analyzes the strategy signals (slow and fast moving averages) to indicate a change in price. Then we create a robo-advisor using Amazon Lex and we then program the robo-advisor to buy or sell orders via the platform Slack.
 
-**Sandbox API via Coinbase**
-
-**Choosing certain asset metrics from Sandbox API via the Coinbase Client:**
-
-When it came to organizing the content of our tool, we picked certain metrics that would be most appropriate for the beginner crypto investor. For this tool the following asset metrics were selected: 
-
-**skit-learn**
-
-Sklearn description...
-
-***Image 3: sklearn***
-
-## **Interactive Trading Bot User Inteface:**
-
-**Amazon Lex**
-
-Amazon Lex description...
-
-SatoshiBot...
-
-***Image 4: SatoshiBot via Slack***
-
-## **Conclusion:**
-
-Reintroduce our tool again. Briefly mention how we collected data and made our tool...
-
 ## **Model Performance:**
 
 **Scikit Learn Supervised Machine Learning**
@@ -82,7 +56,26 @@ The SVM model did not perform as well
 
 ![alt text](https://github.com/IJASI/Team-5---Project/blob/main/svm_model.png)
 
-Overall I am very happy with the results from the Decision Tree model.  I would like more time to optimize it before using testing it will real money
+Overall I am very happy with the results from the Decision Tree model.  I would like more time to optimize it before using testing it will real money.
+
+## **Interactive Trading Bot User Inteface:**
+
+**Amazon Lex**
+
+Amazon Lex is service that will be used to build an A.I trading training bot also known as a conversational interface to interact with new traders. With Lex, we can create custom slots types and define values to be used as part of the intent for the bot.
+
+**SatoshiBot**
+
+The bot for our program is called SatoshiBot. It is a roboadvisor that is able to buy and sell cryptocurrency orders via simulated trading using data from Coinbase Sandbox API.
+
+Sample Questions for SatoshiBot:
+
+1. Which cryptocurrency would you like to put on your watchlist {coin}?
+2. How many dollars worth of {coin} do you want to invest?
+3. How many dollars worth of {coin} do you want to sell?
+
+![](Project2Images/SatoshiBoi.png)
+***Image 4: SatoshiBot via Slack***
 
 ## **Overall Comments:**
 
