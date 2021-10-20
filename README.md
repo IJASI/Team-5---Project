@@ -30,7 +30,7 @@ We will be using Sandbox APIs to fetch the information for supply for this proje
 - hvPlot - Visual graphics
 - sklearn - Supervised learning algorithm 
 
-![](Project1Images/CodeLogic.png)
+![](Project2Images/OverviewProject2.png)
 ***Image 1: Generalized Overview of the Algorithmic Cryptocurrency Trading Bot***
 
 The Algorithmic Cryptocurrency Trading Bot works overall is like the following:
