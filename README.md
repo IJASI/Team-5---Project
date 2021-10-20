@@ -75,6 +75,7 @@ Sample Questions for SatoshiBot:
 3. How many dollars worth of {coin} do you want to sell?
 
 ![](Project2Images/SatoshiBoi.png)
+
 ***Image 4: SatoshiBot via Slack***
 
 ## **Overall Comments:**
