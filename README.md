@@ -44,20 +44,19 @@ The goal of this project is to create a simulated trading robo-advisor. First, w
 The trading strategy I used made a .64% return using BTC-USD.  I used rolling windows of 25 and 100.  I could have made more money if I used smaller rolling windows, resulting in more trades, but the data did not make great predictions.  I made better predictions with the larger window.
 
 ![alt text](https://github.com/IJASI/Team-5---Project/blob/main/cumulatin_returns.png)
+
 ***Image 2: Cumulative Returns for Rolling Windows of 25 and 100***
 
 Model Performance.  I used a SVM model and a Decision Tree model.  I tested about 5 models, which did not perform as well as SVM and DecisionTree. For this algorithm, it was important to use a classifier model to predict 1 of 2 outcomes, the trading signal: 1 or -1
 
 
 ![alt text](https://github.com/IJASI/Team-5---Project/blob/main/decisiontree.png)
-
 ***Image 3: Decision Tree Model***
 
 
 The SVM model did not perform as well.
 
 ![alt text](https://github.com/IJASI/Team-5---Project/blob/main/svm_model.png)
-
 ***Image 4: SVM Model***
 
 Overall I am very happy with the results from the Decision Tree model.  I would like more time to optimize it before using testing it will real money.
