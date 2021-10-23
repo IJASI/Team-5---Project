@@ -93,3 +93,8 @@ The problem I am facing regarding the last for loop and if else statements is:  
 
 Once I am able to solve the last function, the bot will trade live on the Coinbase sandbox, and I will be able to optimize the code to buy and sell more often for better cumulative returns.  Until that is done, I am using print statements to test.
 
+Update:  I got the program to run live using the last row of data to buy, hold or sell using buy() and sell() fucntions.  The hold is programmed at 0 for the trading signal and will print hold.
+
+The program can be used to test your algorithm or to execute live trades once a day buying or selling BTC.  It is currently set to fake money on Coinbase sandox, but changing the api will change it to real money
+
+In the future, I will have the program take data like how much USD to buy and sell.  Right now it is set to 1 BTC.
