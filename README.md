@@ -9,7 +9,7 @@ Anthony Mirete<br/>
 
 ## **Project Overview:**
 
-As new investors learn more about the world of cryptocurrency, oftentimes than not, it can be an information overload when it comes to selecting a coin to invest in. The overall idea for this project is to create an A.I chat training bot to help new traders with the overall concept of trading and encourage new users to create their own trading strategies. Through Amazon Lex, this robo-advisor will buy and sell cryptocurrency orders using simulated trading. We use the Sandbox API to retrieve fundamental data (market cap, volume, circulating supply, total supply, and other relevant information) for the following crypto coins: ...  
+As new investors learn more about the world of cryptocurrency, oftentimes than not, it can be an information overload when it comes to selecting a coin to invest in. The overall idea for this project is to create an A.I chat training bot to help new traders with the overall concept of trading and encourage new users to create their own trading strategies. We use the Sandbox API to retrieve fundamental data (market cap, volume, circulating supply, total supply, and other relevant information) for Bitcoin (BTC). Through Amazon Lex, the robo-advisor called SatoshiBot will buy and sell cryptocurrency orders using simulated trading.
 
 ## **Research Questions:**
 
@@ -30,45 +30,12 @@ We will be using Sandbox APIs to fetch the information for supply for this proje
 - hvPlot - Visual graphics
 - sklearn - Supervised learning algorithm 
 
+![](Project2Images/OverviewProject2.png)
 ***Image 1: Generalized Overview of the Algorithmic Cryptocurrency Trading Bot***
 
 The Algorithmic Cryptocurrency Trading Bot works overall is like the following:
 
-Description...
-
-**Source Code**
-
-Source code description...
-
-***Image 2: Source Code***
-
-**Sandbox API via Coinbase**
-
-**Choosing certain asset metrics from Sandbox API via the Coinbase Client:**
-
-When it came to organizing the content of our tool, we picked certain metrics that would be most appropriate for the beginner crypto investor. For this tool the following asset metrics were selected: 
-
-description...
-
-**sklearn**
-
-Sklearn description...
-
-***Image 3: sklearn***
-
-## **Interactive Trading Bot User Inteface:**
-
-**Amazon Lex**
-
-Amazon Lex description...
-
-SatoshiBot...
-
-***Image 4: Amazon Lex: SatoshiBot***
-
-## **Conclusion:**
-
-Reintroduce our tool again. Briefly mention how we collected data and made our tool...
+The goal of this project is to create a simulated trading robo-advisor. First, we use the Coinbase Sandbox API as the test environment. Using machine learning libraries such as skit-learn to take in data from the API, the machine model analyzes the strategy signals (slow and fast moving averages) to indicate a change in price. Then we create a robo-advisor using Amazon Lex and we then program the robo-advisor to buy or sell orders via the platform Slack.
 
 ## **Model Performance:**
 
@@ -78,18 +45,43 @@ The trading strategy I used made a .64% return using BTC-USD.  I used rolling wi
 
 ![alt text](https://github.com/IJASI/Team-5---Project/blob/main/cumulatin_returns.png)
 
+***Image 2: Cumulative Returns for Rolling Windows of 25 and 100***
 
 Model Performance.  I used a SVM model and a Decision Tree model.  I tested about 5 models, which did not perform as well as SVM and DecisionTree. For this algorithm, it was important to use a classifier model to predict 1 of 2 outcomes, the trading signal: 1 or -1
 
-Here is the png of the Decision Tree model:
 
 ![alt text](https://github.com/IJASI/Team-5---Project/blob/main/decisiontree.png)
 
-The SVM model did not perform as well
+***Image 3: Decision Tree Model***
+
+
+The SVM model did not perform as well.
 
 ![alt text](https://github.com/IJASI/Team-5---Project/blob/main/svm_model.png)
 
-Overall I am very happy with the results from the Decision Tree model.  I would like more time to optimize it before using testing it will real money
+***Image 4: SVM Model***
+
+Overall I am very happy with the results from the Decision Tree model.  I would like more time to optimize it before using testing it will real money.
+
+## **Interactive Trading Bot User Inteface:**
+
+**Amazon Lex**
+
+Amazon Lex is service that will be used to build an A.I trading training bot also known as a conversational interface to interact with new traders. With Lex, we can create custom slots types and define values to be used as part of the intent for the bot.
+
+**SatoshiBot**
+
+The bot for our program is called SatoshiBot. It is a robo-advisor that is able to buy and sell cryptocurrency orders via simulated trading using data from Coinbase Sandbox API.
+
+Sample Questions for SatoshiBot:
+
+1. Which cryptocurrency coin would you like to put on your watchlist?
+2. How many dollars worth of {coin} do you want to invest?
+3. How many dollars worth of {coin} do you want to sell?
+
+![](Project2Images/SatoshiBoi.png)
+
+***Image 5: SatoshiBot via Slack***
 
 ## **Overall Comments:**
 
